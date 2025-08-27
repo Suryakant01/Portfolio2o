@@ -1,6 +1,7 @@
 "use client";
 
-import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
+import { AnimatePresence, motion, Variants } from "framer-motion";
+import { useInView, type MarginType } from "framer-motion";
 import { useRef } from "react";
 
 interface BlurFadeProps {
